@@ -1,0 +1,31 @@
+.login-container {
+  height: 100vh;
+  padding: 0;
+}
+.login-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-login {
+  width: "200px";
+}
+.signin-head {
+  font-weight: 500;
+}
+.create-link {
+  color: #587fff;
+}
+/* mobile view */
+@media (max-width: 768px) {
+  .signin-head {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
